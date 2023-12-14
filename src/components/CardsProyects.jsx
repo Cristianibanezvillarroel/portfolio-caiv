@@ -6,13 +6,13 @@ export const CardsProyects = ({content}) => {
   return (
     <Card style={{ width: '18rem' }}>
     <Card.Img variant="top" src={content.imagen} />
-    <Card.Body>
+    <Card.Body className='row-cardbody'>
       <Card.Title>{content.name}</Card.Title>
       <Card.Text>
-        Some quick example text to build on the card title and make up the
-        bulk of the card's content.
+        {content.resena}
       </Card.Text>
-      <Button variant="primary">Go somewhere</Button>
+      <Button href={content.despliegue} variant="primary">Despliegue</Button>
+      <Button className='button-proyect' href={content.repositorio} variant="success">Repositorio</Button>
     </Card.Body>
   </Card>
   )
