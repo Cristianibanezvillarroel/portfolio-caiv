@@ -4,8 +4,8 @@ export const ListaProyectos = [
         "name": "Landing",
         "despliegue": "https://cristianibanezvillarroel.github.io/ProyectoLandingCristianIbanezVillarroel/",
         "repositorio": "https://github.com/Cristianibanezvillarroel/ProyectoLandingCristianIbanezVillarroel",
-        "imagen": "/portfolio-caiv/imgChart.png",
-        "resena": "Proyecto que promociona los servicios de Emprendedor Funcional basado 100% en Javascript."
+        "imagen": "/portfolio-caiv/imgLanding.png",
+        "resena": "Proyecto que promociona los servicios de Emprendedor empoderado basado 100% en HTML y Javascript."
     },
     {
         "id": 2,
